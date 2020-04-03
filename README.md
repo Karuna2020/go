@@ -1,6 +1,4 @@
-# go.param.me [![Netlify Status](https://api.netlify.com/api/v1/badges/eb3c0c7f-104a-49ce-b655-72f4ab080548/deploy-status)](https://app.netlify.com/sites/go-param-me/deploys)
-> A URL shortener for my personal links.
-
+<h1><img alt="" src="https://cdn.karuna2020.org/icon-colored.svg" height="29">&nbsp; Karuna 2020 URL Shortener</h1>
 
 ## Redirects
 All the redirect URLs are maintained in [`redirects.csv`](redirects.csv), which is fetched by the client [`script.js`](script.js) each time someone visits the site. There is no dynamic content as everything is done by the client-side. Alternatively, and if Netlify is set up, then a `_redirects` file can be used to create server-side redirects which improve SEO and are faster.
