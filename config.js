@@ -1,8 +1,8 @@
 var config = {
-	"shortDomain": "go.param.me",
-	"defaultRedirect": "https://www.param.me",
-	"repo": "paramt/go.param.me",
-	"users": ["paramt"],
+	"shortDomain": "go.karuna2020.org",
+	"defaultRedirect": "https://karuna2020.org",
+	"repo": "Karuna2020/go",
+	"users": ["adittyaverma", "AnandChowdhary", "irohitb", "shivekkhurana"],
 	"netlify_redirects": true,
 	"utm": false
 }
