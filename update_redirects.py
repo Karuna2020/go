@@ -44,10 +44,7 @@ def remove_netlify_redirects(url):
 			if line.split(" ")[0][1:] != url:
 				redirects.write(line)
 
-# Check whether issue is opened by an authorized user
-authorized = issue.user.login in GH_USERS
-
-if authorized and issue.get_labels()[0].name == "update redirects":
+if issue.get_labels()[0].name == "update redirects":
 	os.system("git config --local user.email 'action@github.com'")
 	os.system("git config --local user.name 'GitHub Actions'")
 
